@@ -15,6 +15,7 @@ import dataProvider from "@refinedev/simple-rest";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import { MuiInferencer } from "@refinedev/inferencer/mui";
 import { BlogPostList } from "components/bloglistpost";
+import { BlogPostCreate } from "components/blogpostcreate";
 
 const App: React.FC = () => {
     return (
@@ -64,7 +65,7 @@ const App: React.FC = () => {
                                     />
                                     <Route
                                         path="create"
-                                        element={<MuiInferencer />}
+                                        element={<BlogPostCreate />}
                                     />
                                 </Route>
                                 <Route path="*" element={<ErrorComponent />} />

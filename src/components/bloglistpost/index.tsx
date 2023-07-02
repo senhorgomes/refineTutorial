@@ -3,7 +3,6 @@ import {
     useDataGrid,
     EditButton,
     ShowButton,
-    DeleteButton,
     List,
     MarkdownField,
     DateField,
