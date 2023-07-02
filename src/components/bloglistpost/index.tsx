@@ -99,7 +99,7 @@ export const BlogPostList: React.FC<IResourceComponentsProps> = () => {
                 minWidth: 80,
             },
         ],
-        [categoryData?.data],
+        [categoryData?.data, categoryIsLoading],
     );
 
     return (
